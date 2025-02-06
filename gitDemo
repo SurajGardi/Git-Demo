@@ -1,0 +1,77 @@
+clear
+
+git status
+git init - intializes empty git repo
+
+**************************
+git status : for checking git status
+
+************************
+U - Untracked
+A - Staged
+M - Modified
+
+*********************************************
+
+For adding files in repo :
+
+1. git add "filename"
+
+2. git add -A : 
+        (New files, Modified Files, deleted files)
+
+3. git add .
+        (For adding all Files in repository)
+
+****************************************
+COMMIT
+
+git commit -m "css added"   [" " -> changes message]
+
+*****************************************
+Restoring Deleted files:
+
+git restore .               : for restore all deleted files.
+git restore <"Filename">    : for restore specific deleted file.
+
+********************************************
+For checking HISTORY of COMMITS
+
+git log
+
+git log --pretty=online
+
+***********************************
+
+git checkout
+
+********************
+clone-push
+
+git remote(hosting server)
+
+git remote
+git remote add origin copied_link
+    (if authentication error occures then ope GitHub on chrome )
+
+git branch
+git branch -m main(branch rename)
+git branch
+git push origin main
+
+
+**********************
+in case of you enter wrong add and commit command you can come back from following commands :
+
+:q   -> Quite
+:wq  -> Save & Quite
+
+***********************************
+
+Git Bash :
+
+ git config --global --list     : it will give the name and email
+
+ git status 
+ git init
+ 

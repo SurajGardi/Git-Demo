@@ -76,4 +76,24 @@ Git Bash :
  git init
 
  .git>head      : (Contains all commited data )
- 
+
+ **************************************************
+        CLONE
+
+git clone repo_url   (shift + insert)
+
+cd folder_name  
+
+tagging version control :
+
+git remote
+
+git remote add suraj our_repo_url  (where you want to clone the project)
+
+git remote
+
+git push suraj main 
+            [if it throws error then chk GitHub repo whose url you are given for cloaning and 
+             accept the (compare and pull request)]
+
+git push suraj main --force

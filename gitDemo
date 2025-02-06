@@ -74,4 +74,6 @@ Git Bash :
 
  git status 
  git init
+
+ .git>head      : (Contains all commited data )
  

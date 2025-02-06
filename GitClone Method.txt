@@ -1,0 +1,69 @@
+-->git config --global user.name "name"
+-->git config --global user.email "email"
+
+-->git add . (for add all data)
+-->git commit -m "msg"
+-->git status
+
+
+Visit Any On Repo Visit
+Copy the HTTPS Link of Selected Repository
+
+Create Folder at Local (pc)
+Open Folder Then Open The GIt bash or VS Code for Folder Status
+
+VS Code
+Open Folder
+Open terminal As GIt Bash 
+-->git status
+(fatal error)
+
+-->git clone <selected Repo Link>
+
+(create new folder that Contain the Repo Files)
+
+Copy the Contain In Repo Folded and Past At Any Other FIle
+
+Open The New FIle where we Copy The Repo Data and Open With VS
+
+-->git status
+(Fatal etrror)
+
+-->git init 
+
+(untrack) bcz all files are new for .git folder
+
+-->git add . 
+(Staging the all files in .git folder)
+
+-->git commit  -m "Add Contain"
+(commit)
+
+OPen Git hub
+Create New Repo on our Own Profile Where we want to push the data 
+
+Copy the HTTPS link of NEw Repo
+
+return to VS
+
+-->git remote
+(to check there is any repo available or not)
+(O/p Null)
+
+-->git remote add origin <own_new_repo_link>
+
+(where origin as a like Nickname For The Repo name)
+
+-->git remote
+(where we see the nickname of created repo)
+
+(now time to push the data to the repo)
+
+-->git status
+
+--> git push <nickname> <branch_name>
+
+(where commonly branch name is Master or main )
+
+
+(See Git hub repo where our data is now Submitted using git )

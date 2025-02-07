@@ -96,4 +96,4 @@ git push suraj main
             [if it throws error then chk GitHub repo whose url you are given for cloaning and 
              accept the (compare and pull request)]
 
-git push suraj main --force
+git push suraj main --force 

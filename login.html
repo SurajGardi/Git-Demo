@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Login Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('static/images/i4.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+
+        .container {
+            background: rgba(100, 72, 72, 0.05);
+            border-radius: 12px;
+            padding: 30px;
+            width: 350px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #fff;
+            margin-right: 850px; /* Adjust this value as needed */
+        }
+       
+
+        .container h2 {
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .input-box {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 12px;
+            padding-left: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 6px;
+            outline: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .input-box input:focus {
+            border-color: #4db5ff;
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .input-box input::placeholder {
+            color: #ddd;
+        }
+
+        .input-box i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ddd;
+            font-size: 18px;
+        }
+
+        .forgot {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #ddd;
+            cursor: pointer;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #0056b3, #004494);
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 123, 255, 0.6);
+        }
+
+        .social-login {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .social-login a {
+            width: 30%;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+
+        .admin {
+            background: #1877F2;
+        }
+
+        .guard {
+            background: #E4405F;
+        }
+
+        .owner {
+            background: rgb(64, 187, 228);
+        }
+
+        .social-login a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .register {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .register a {
+            color: #4db5ff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .register a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        <div class="input-box">
+            <i>🔒</i>
+            <input type="text" placeholder="Email or Phone">
+        </div>
+        <div class="input-box">
+            <i>🔑</i>
+            <input type="password" placeholder="Password">
+        </div>
+        <a class="forgot" href="#">Forgot Password?</a>
+        
+        <p>login as</p>
+        <div class="social-login">
+            <a href="#" class="admin">Admin</a>
+            <a href="#" class="guard">Guard</a>
+            <a href="#" class="owner">Owner</a>
+        </div><br>
+        <button class="btn">LOGIN</button><br>
+        <p class="register">Don't have an account? <a href="#">Sign Up Now</a></p>
+    </div>
+</body>
+</html>

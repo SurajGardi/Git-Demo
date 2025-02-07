@@ -42,7 +42,7 @@ Open The New FIle where we Copy The Repo Data and Open With VS
 OPen Git hub
 Create New Repo on our Own Profile Where we want to push the data 
 
-Copy the HTTPS link of NEw Repo
+Copy the HTTPS link of New Repo
 
 return to VS
 
